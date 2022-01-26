@@ -8,3 +8,12 @@ An [issue](https://github.com/spatie/laravel-route-attributes/issues/57) was rep
 This project aims to show that the issue doesn't exist.
 
 Although, if you have 2 classes with the same name and namespace, an error occurs, as expected.
+
+### Check the routes
+
+Three routes are registered, each one in different controllers that have the same name but different namespace.
+
+The routes are:
+* my-route
+* api-route
+* admin-route
